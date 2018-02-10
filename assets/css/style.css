@@ -265,6 +265,10 @@ h2 {
     #portfolioMain {
         width: 420px;
     }
+
+    #formSection {
+        width: 420px;
+    }
 }
 
 @media screen and (max-width: 768px ) {
@@ -283,6 +287,11 @@ h2 {
 
     #portfolioMain {
         width: 530px;
+        margin-bottom: 30px;
+    }
+
+    #formSection {
+        width: 500px;
         margin-bottom: 30px;
     }
 }
@@ -324,4 +333,9 @@ h2 {
     #portfolioMain {
         width: 300px;
     }
+
+    #formSection {
+        width: 300px;
+    }
+
 }
