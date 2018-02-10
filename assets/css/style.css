@@ -255,3 +255,60 @@ h2 {
     background-color: #4aaaa5;
     border: none;
 }
+
+@media screen and (max-width: 980px) {
+ 
+    #mainContent {
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+
+    #mainContent {
+        width: 500px;
+        margin-bottom: 30px;
+        padding: 0 0 0 30px;
+    }
+
+    #sideBar {
+        width: 530px;
+        clear: left;
+        margin-left: 13.333%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #mainContent {
+        width: 300px;
+        margin-bottom: 30px;
+        padding: 0 0 0 30px;
+    }
+
+    #sidebar {
+        width: 330px;
+        clear: left;
+        margin-left: 13.333%;
+    }
+
+    #name {
+        width: 100%;
+    }
+
+    .navLink {
+        float: right;
+        margin: 0 10px 0 10px;
+    }
+
+    #navbar {
+        width: 330px;
+        position: static;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    #navFill {
+        display: none;
+    }
+}
