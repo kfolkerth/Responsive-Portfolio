@@ -17,7 +17,6 @@ footer {
     border-top: 10px solid #4aaaa5;
     z-index: 3;
     clear: both;
-    margin-top: -60px;
 }
 
 #navFill {
@@ -79,6 +78,7 @@ h2 {
     float: left;
     background-color: white;
     padding-left: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -203,7 +203,7 @@ h2 {
 }
 
 #formSection {
-    width: 620px;
+    width: 590px;
     background-color: white;
     margin-left: 13.333%;
     float: left;
@@ -214,6 +214,7 @@ h2 {
 
 #contactSection {
     height: 90px;
+    width: 80%;
     line-height: 90px;
     font-size: 24px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -224,7 +225,7 @@ h2 {
 }
 
 #nameInput {
-    width: 590px;
+    width: 80%;
     height: 35px;
     color: #777777;
     margin-top: 15px;
@@ -232,7 +233,7 @@ h2 {
 }
 
 #emailInput {
-    width: 590px;
+    width: 80%;
     height: 35px;
     color: #777777;
     margin-top: 15px;
@@ -240,7 +241,7 @@ h2 {
 }
 
 #messageInput {
-    width: 590px;
+    width: 80%;
     height: 200px;
     color: #777777;
     margin-top: 15px;
@@ -248,12 +249,16 @@ h2 {
 }
 
 #inputButton {
-    width: 120px;
+    width: 80%;
     height: 40px;
     line-height: 40px;
     color: white;
     background-color: #4aaaa5;
     border: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 980px) {
@@ -283,10 +288,11 @@ h2 {
         width: 530px;
         clear: left;
         margin-left: 13.333%;
+        margin-bottom: 100px;
     }
 
     #portfolioMain {
-        width: 530px;
+        width: 500px;
         margin-bottom: 30px;
     }
 
@@ -294,20 +300,26 @@ h2 {
         width: 500px;
         margin-bottom: 30px;
     }
+
+    #navbar {
+        width: 525px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
 
     #mainContent {
         width: 300px;
+        margin-left: 25%;
         margin-bottom: 30px;
         padding: 0 0 0 30px;
     }
 
-    #sidebar {
+    #sideBar {
         width: 330px;
         clear: left;
-        margin-left: 13.333%;
+        margin: 0 0 150px 25%;
     }
 
     #name {
@@ -316,7 +328,7 @@ h2 {
 
     .navLink {
         float: right;
-        margin: 0 10px 0 10px;
+        margin: 0 10px 0 20px;
     }
 
     #navbar {
@@ -324,6 +336,7 @@ h2 {
         position: static;
         height: 150px;
         margin-bottom: 30px;
+        margin-left: 25%;
     }
 
     #navFill {
@@ -332,10 +345,16 @@ h2 {
 
     #portfolioMain {
         width: 300px;
+        margin-left: 25%;
     }
 
     #formSection {
         width: 300px;
+        margin-left: 25%;
+    }
+
+    footer {
+        margin-top: -50px;
     }
 
 }
