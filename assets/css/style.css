@@ -1,0 +1,257 @@
+
+body {
+    background-color: #cccccc;
+    background-image: url('../images/background.png');
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666666;
+    text-align: center;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 0.705);
+    border-top: 10px solid #4aaaa5;
+    z-index: 3;
+    clear: both;
+    margin-top: -60px;
+}
+
+#navFill {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid grey;
+}
+
+#navbar {
+    background-color: white;
+    width: 960px;
+    height: 80px;
+    z-index: 2;
+    margin-left: 13.333%;
+    position: absolute;
+    top: 0;
+}
+
+#name {
+    float: left;
+    height: 80px;
+    width: 240px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+
+}
+
+.navLink {
+    float: right;
+    color: grey;
+    text-decoration: none;
+    padding-right: 20px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+#links {
+    height: 80px;
+    line-height: 80px;
+}
+
+#contactLink {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+}
+
+#mainContent {
+    margin-left: 13.333%;
+    width: 620px;
+    float: left;
+    background-color: white;
+    padding-left: 30px;
+
+}
+
+#aboutSection {
+    color: #777777;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#aboutHeader {
+    height: 90px;
+    line-height: 90px;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+
+#profilePhoto {
+    width: 190px;
+    height: 140px;
+    float: left;
+    margin-right: 10px;
+}
+
+#sideBar {
+    width: 270px;
+    height: 190px;
+    float: left;
+    background-color: white;
+    z-index: 2;
+    margin-left: 40px;
+}
+
+.connectImage {
+    width: 60px;
+    height: 60px;
+}
+
+#connect {
+    width: 210px;
+    height: 70px;
+    line-height: 70px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    color: #4aaaa5;
+}
+
+#githubImage {
+    margin-left: 30px;
+}
+
+#linkedinImage {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#aboutParagraphOne {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#aboutParagraphTwo {
+    margin-right: 30px;
+}
+
+.portfolioImage {
+    width: 270px;
+    height: 200px;
+    z-index: 1;
+}
+
+#portfolioMain {
+    width: 620px;
+    background-color: white;
+    margin-left: 13.333%;
+    float: left;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+
+#portfolioHeaderSection {
+    height: 90px;
+    line-height: 90px;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid grey;
+    font-weight: 700;
+}
+
+.portfolioLabel {
+    width: 270px;
+    height: 60px;
+    z-index: 2;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    bottom: 35%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.portfolioContainer {
+    width: 270px;
+    height: 200px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+.portfolioFive {
+    clear: both;
+}
+
+#formSection {
+    width: 620px;
+    background-color: white;
+    margin-left: 13.333%;
+    float: left;
+    padding-left: 30px;
+    padding-bottom: 120px;
+    color: #777777;
+}
+
+#contactSection {
+    height: 90px;
+    line-height: 90px;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid grey;  
+}
+
+#nameInput {
+    width: 590px;
+    height: 35px;
+    color: #777777;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#emailInput {
+    width: 590px;
+    height: 35px;
+    color: #777777;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#messageInput {
+    width: 590px;
+    height: 200px;
+    color: #777777;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#inputButton {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: #4aaaa5;
+    border: none;
+}
